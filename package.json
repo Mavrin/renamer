@@ -1,0 +1,38 @@
+{
+  "name": "smart-renamer",
+  "title": "Smart renamer",
+  "version": "0.0.1",
+  "description": "No description",
+  "author": "Krivlenia Konstantin <krivlenia@gmail.com>",
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "contributors": [
+    "Krivlenia Konstantin <krivlenia@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mavrin/renamer.git"
+  },
+  "main": "./lib/api",
+  "bin": {
+    "renamer": "./bin/renamer"
+  },
+  "preferGlobal": true,
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "clap": "~1.0.0",
+    "update-notifier": "0.2.0",
+    "chalk": "0.5.1",
+    "osenv": "0.1.0",
+    "mkdirp": "0.5.0"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+  }
+}
